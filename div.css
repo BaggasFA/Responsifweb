@@ -1,0 +1,272 @@
+body{
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    background-color: rgb(204, 204, 204);
+    tab-size: auto;
+    padding-top: 1px;
+}
+
+header{
+    background-color: rgb(103, 145, 182);
+    text-align: center;
+    width: 100%;
+    height: 7vw;
+}
+
+.jarak{
+    background-color: rgb(204, 204, 204);
+    width: auto;
+}
+.menuutuma{
+    background-color: #34d8ac;
+    float: left;
+    width: 20vw;
+    height: 14vw;
+    margin: auto;
+}
+
+hr{
+    background-color: #34d8ac;
+}
+
+.menu ul{
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    width: 95%;
+    margin: 6 6 5;
+    background: #23b890;
+    position: relative;
+}
+
+.menu ul a {
+    text-align: center;
+	padding:1vw;
+    margin-top: 1;
+	display:block;
+	font-weight:600;
+	font-size: 16px;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+    text-decoration: underline;
+}
+
+.menu .m{
+    border: 2;
+    border-color: #34d8ac;
+}
+
+.menu ul .m a:hover {
+	color:#ffff;
+}
+
+.formlegis{
+    background-color: #34d8ac;
+    float: right;
+    width: 20vw;
+    height: 15vw;
+    text-decoration: justify;
+    padding-left: 1vw;
+}
+
+.iklan1{
+    background-color: red;
+    float: right;
+    width: 20vw;
+    height: 8vw;
+    text-decoration: justify;
+    padding-left: 1vw;
+
+}
+.Iklan2{
+    background-color: blue;
+    float: right;
+    width: 20vw;
+    height: 8vw;
+    text-decoration: justify;
+    padding-left: 1vw;
+}
+.Iklan3{
+    background-color: brown;
+    float: right;
+    width: 20vw;
+    height: 8vw;
+    text-decoration: justify;
+    padding-left: 1vw;
+}
+.tombol{
+    padding-right: 5%;
+    float: right;
+}
+
+.btn-login {
+    overflow: hidden;
+    border: rgb(58, 185, 132);
+    background-color: rgb(58, 185, 132);
+    color: white;
+    width: 4.3vw;
+    height: 1.8vw;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.buttom{
+    font-size: 1vw;
+}
+
+.konten{
+    float: left;
+    background-color: white;
+    width: 55vw;
+}
+.foto{
+  width: 90%;
+}
+
+img {
+	min-width: 500px;
+	margin:0 0 25px -35px ;
+    padding-left: 4vw;
+	max-width: 650px;
+}
+
+.konten h1{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(103, 145, 182);
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 3vw;
+    border-top: 10px solid rgb(204, 204, 204);
+}
+
+footer h6{
+    padding-top: 0.1vw;
+    padding-bottom: 0.8vw;
+}
+
+@media only screen and (max-width:960px) {
+    .header{
+        height: auto;
+    }
+    .konten{
+        width: 100%;
+        float: left;
+        height: auto;
+    }
+    .menuutuma{
+        width: 100%;
+        height: auto;
+    }
+    .menu{
+        height: auto;
+    }
+}
+
+@media only screen and (min-width:600px) and
+(max-width:999px) {
+    .header{
+        height: auto;
+    }
+    .konten{
+        float: left;
+        height: auto;
+        width: 68%;
+    }
+    .menuutuma{
+        width: 100%;
+        height: auto;
+    }
+    .menu{
+        height: auto;
+    }
+    .formlegis{
+        width: 30%;
+        height: auto;
+    }
+
+    .iklan1{
+        width: 30%;
+        height: 15vw;
+    }
+    .iklan2{
+        width: 30%;
+      height: 15vw;
+    }
+    .Iklan3{
+        width: 30%;
+        height: 15vw;
+    }
+
+    img{
+        min-width: 300px;
+        max-width: 550px;
+        width: auto;
+        height: auto;
+        margin:0 0 20px -20px ;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    /* untuk mobile */
+    .header{
+        height: auto;
+    }
+    .konten{
+        float: left;
+        height: auto;
+        width: auto;
+    }
+    .menuutuma{
+        width: 100%;
+        height: auto;
+    }
+    .menu{
+        height: auto;
+    }
+    .formlegis{
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+
+    .iklan1{
+        float: left;
+        width: 100%;
+        height: 8vw;
+        background-color: brown;
+    }
+    .iklan2{
+        float: left;
+        width: 100%;
+        height: 8vw;
+        background-color: red;
+    }
+    .iklan3{
+        float: left;
+        width: 100%;
+        height: 8vw;
+        background-color: blue;
+    }
+    img{
+        min-width: 200px;
+        max-width: 350px;
+        width: auto;
+        height: auto;
+        margin:0 0 20px -10px ;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+}
